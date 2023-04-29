@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-color: #FFCD9E;
+    display: flex;
+    height: 75vh;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.images{
+    max-height: 15rem;
+    position: relative;
+    left: -8%;
+    top: 10%;
+}
+
+.left{
+    width: 30vw;
+    margin-top: 3rem;
+}
+
+.para{
+    margin-top: 1.4rem;
+    font-size: 14px;
+}
+
+.first{
+    /* font-weight: 900; */
+    font-size: 27px;
+}
+
+.second{
+    margin-top: 1.4rem;
+    font-size: large;
+}
+
+.forms{
+    margin-top: 2rem;
+}
+
+.forminput{
+    padding: 2%;
+    width: 13rem;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.button{
+    background-color: black;
+    color: white;
+    border-radius:7px;
+    width: 9rem;
+    text-decoration: none;
+    padding: 2%;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.third{
+    color: white;
+    font-size: smaller;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.bottom{
+    background-color: rgb(37, 34, 34);
+    height: 25vh;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.list1,.list2{
+    color: white;
+}
+
+.list1{
+    margin-top: 2rem;
+    list-style: none;
+    margin-left: -9rem;
+}
+
+.list2{
+    
+    margin-top: 2rem;
+    list-style: none;
+    margin-left: 9rem;
+}
+
+ul>li{
+    font-size: small;
+}
+
+.listimg{
+    height: 1rem;
+    color: #FFCD9E;
+}
+
+.listimg2{
+    margin-left: 5.7rem;
+}
